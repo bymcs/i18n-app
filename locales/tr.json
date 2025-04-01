@@ -1,0 +1,14 @@
+{
+  "Metadata": {
+    "title": "Uygulamam",
+    "description": "Çok dilli uygulama örneği",
+    "ogTitle": "Uygulamam - Çok Dilli Destek",
+    "ogDescription": "Çok dilli uygulama örneğimizi keşfedin"
+  },
+  "Home": {
+    "areYouSure": "Kesinlikle emin misiniz?",
+    "actionCannotBeUndone": "Bu işlem geri alınamaz. Hesabınızı kalıcı olarak silecek ve verilerinizi sunucularımızdan kaldıracaktır.",
+    "cancel": "İptal",
+    "continue": "Devam Et"
+  }
+}

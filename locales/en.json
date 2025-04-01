@@ -1,0 +1,14 @@
+{
+  "Metadata": {
+    "title": "My App",
+    "description": "Multilingual app example",
+    "ogTitle": "My App - Multilingual Support",
+    "ogDescription": "Explore our multilingual app example"
+  },
+  "Home": {
+    "areYouSure": "Are you absolutely sure?",
+    "actionCannotBeUndone": "This action cannot be undone. This will permanently delete your account and remove your data from our servers.",
+    "cancel": "Cancel",
+    "continue": "Continue"
+  }
+}

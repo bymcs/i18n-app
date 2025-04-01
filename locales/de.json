@@ -1,0 +1,14 @@
+{
+  "Metadata": {
+    "title": "Meine App",
+    "description": "Mehrsprachige App Beispiel",
+    "ogTitle": "Meine App - Mehrsprachige Unterstützung",
+    "ogDescription": "Entdecken Sie unser mehrsprachiges App-Beispiel"
+  },
+  "Home": {
+    "areYouSure": "Sind Sie absolut sicher?",
+    "actionCannotBeUndone": "Diese Aktion kann nicht rückgängig gemacht werden. Dadurch wird Ihr Konto dauerhaft gelöscht und Ihre Daten von unseren Servern entfernt.",
+    "cancel": "Abbrechen",
+    "continue": "Fortfahren"
+  }
+}
