@@ -13,17 +13,12 @@ import {
 } from '@/components/ui/dropdown-menu';
 import Image from 'next/image';
 import { routing } from '@/i18n/routing';
+import Flag from 'react-world-flags';
 
 const locales = routing.locales;
 
 const getLocaleName = (locale: string) => {
   return new Intl.DisplayNames([locale], {type: 'language'}).of(locale) || locale;
-};
-
-const flagIcons: { [key: string]: string } = {
-  tr: 'https://flagcdn.com/w20/tr.png',
-  en: 'https://flagcdn.com/w20/gb.png',
-  de: 'https://flagcdn.com/w20/de.png'
 };
 
 export function LanguageSwitcher() {
@@ -32,7 +27,7 @@ export function LanguageSwitcher() {
   const currentLocale = useLocale();
 
   const switchLocale = (locale: string) => {
-    router.replace(pathname, { locale: locale });
+    router.replace(pathname, { locale });
   };
 
   return (
@@ -58,13 +53,7 @@ export function LanguageSwitcher() {
             className='cursor-pointer'
           >
             <div className="flex items-center gap-2">
-              <img
-                src={flagIcons[locale]}
-                alt=""
-                width={20}
-                height={15}
-                className="w-5 h-[15px] object-cover"
-              />
+              <Flag code={locale === 'en' ? 'gb' : locale} style={{ width: '20px', height: '15px' }} />
               <span className="capitalize">{getLocaleName(locale)}</span>
             </div>
           </DropdownMenuItem>
